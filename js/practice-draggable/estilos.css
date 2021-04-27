@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.tabla-der{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: gray;
+    
+}
+
+.tabla-izq{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.tabla-grilla{
+    width: 400px;
+    height: 100%;
+    background-color: red;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fila1{
+    width: 100%;
+    background-color: goldenrod;
+    height: 33.33%;
+}
+.fila2{
+    width: 100%;
+    background-color: silver;
+    height: 33.33%;
+}
+
+.fila3{
+    width: 100%;
+    background-color: darkturquoise;
+    height: 33.33%;
+}
+
+.grilla{
+    width: 32.33%;
+    height: 97%;
+    background-color: aqua;
+    border: 1px solid black;
+    float: left;
+}
+
+.ship1{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.ship2{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.ship3{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    margin: 10px;
+}

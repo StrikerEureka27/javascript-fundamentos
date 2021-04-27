@@ -1,0 +1,31 @@
+¿Como funciona el Asincronismo en JS? 
+
+JavaScript solo puede realizar una tarea a la vez, 
+pero podemos delegar la ejecucion de algunas tareas 
+a otros procesos a esto se le conoce como EVENT LOOP. 
+
+Ejemplo: 
+
+JS tiene algo llamado pila de ejecucion o callstack
+Donde va colocando las llamadas a funciones segun el orden 
+de ejecucion de nuestro programa: 
+
+[  b  ] <-- Funcion que llama a
+[  y  ]
+[  z  ]
+[  a  ] <-- Si una funcion llama a otra se agrega a la pila
+
+Cuando se termina de ejecutar una funcion esta se saca de la 
+pila y continua con las demas. 
+
+En JS podemos hacer una peticion y cuando esta este lista 
+ejecutar una funcion especifica. 
+
+** A ESTO SE LE CONOCE COMO CALL BACK ** 
+
+Cuando la tarea retorna se van a la pila de tareas de JS 
+¿Como que peticiones? A servidores, interacciones visuales
+eventos etc. 
+
+Hasta que termine de vacia la pila de ejecucion se realizaran 
+los procesos de la pila de tareas. 

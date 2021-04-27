@@ -1,0 +1,16 @@
+.fas {
+	cursor: move;
+}
+
+.sortable-chosen{
+	background-color: blue;
+	color: white;
+}
+
+.hide{
+	display: none;
+}
+
+.dis{
+	display: none;
+}
